@@ -36,4 +36,4 @@
 * Cross site request forgery (CSRF) protection
 * SQL injection protection
 
-###### These security features are already provided by Django, so that makes a website from the most common vulnerabilities.
+###### These security features are already provided by Django, so that makes a website safe from the most common vulnerabilities.
