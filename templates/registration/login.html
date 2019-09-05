@@ -251,7 +251,7 @@
     </style>
     <body>
         <nav class="navbar navbar-expand-sm bg-dark">
-            <h2 style="color:white;">InstaCar</h2>
+            <h2 style="color:white;"><a href="{% url 'index' %}">InstaCar</a></h2>
             <ul class="navbar-nav ml-auto">
                 {% if user.is_authenticated %}
                 <li class="nav-item"><a class="nav-link" href="{% url 'logout' %}">Logout</a></li>
